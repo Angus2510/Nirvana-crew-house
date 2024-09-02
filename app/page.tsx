@@ -25,14 +25,14 @@ export default function Home() {
         width={772}
         height={509}
         alt="home-1"
-        className="-mt-28 -ml-32"
+        className="-mt-40 -ml-32"
       />
       <Image
         src="/home-2.png"
         width={403}
         height={318}
         alt="home-2"
-        className="z-10 -ml-20 mt-[120px] -mb-20"
+        className="z-10 -ml-20 mt-[130px] -mb-20"
       />
     </div>
   );

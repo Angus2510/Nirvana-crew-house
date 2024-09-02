@@ -1,5 +1,6 @@
 import React from "react";
-import RoomRate from "../../components/ui/roomRate";
+import RoomRate from "@/components/ui/roomRate";
+import RoomRate2 from "@/components/ui/roomRate2";
 
 const Rooms = () => {
   return (
@@ -8,6 +9,7 @@ const Rooms = () => {
         Room types and Rates
       </h1>
       <RoomRate />
+      <RoomRate2 />
     </div>
   );
 };

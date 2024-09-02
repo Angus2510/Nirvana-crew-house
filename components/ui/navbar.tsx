@@ -36,10 +36,7 @@ const Navbar = () => {
       <Link href="/">
         <Image src="/logo-blue.svg" alt="logo" width={200} height={200} />
       </Link>
-      <div
-        className="md:flex hidden flex-1 justify-around 
-       items-center pb-6 border-b border-customColor1 text-customColor1 text-xl font-semibold -mt-24 cursor-pointer"
-      >
+      <div className="md:flex hidden flex-1 justify-end gap-36       items-center pb-6 border-b border-customColor1 text-customColor1 text-xl font-semibold -mt-44 cursor-pointer">
         {links.map((link) => (
           <Link key={link.id} href={link.url} className="">
             {link.title}
